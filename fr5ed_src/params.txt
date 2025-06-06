@@ -1,0 +1,196 @@
+nam	block	ofs	dependent		predictor	condition	plot	col	hex	table
+aG	1		donation	~	gender	[man]	T	1	00AAFF	1
+	1		donation	~	gender	[woman]	T	2	FFA321	1
+bA	1		donation	~	age		T	3	A0A0A0	1
+bP	1	0.6	donation	~	precaution		T	4	009696	1
+bS	1		donation	~	prosociality		T	5	960096	1
+aC	1	0.6	donation	~	message	[none]	T	6	FFFFFF	1
+	1		donation	~	message	[prudence]	T	7	CC3366	1
+	1		donation	~	message	[general moral]	T	8	000000	1
+	1		donation	~	message	[family]	T	9	440154	1
+	1		donation	~	message	[group]	T	10	443A83	1
+	1		donation	~	message	[reciprocity]	T	11	31688E	1
+	1		donation	~	message	[heroism]	T	12	21908C	1
+	1		donation	~	message	[deference]	T	13	35B779	1
+	1		donation	~	message	[fairness]	T	14	8FD744	1
+	1		donation	~	message	[property]	T	15	FDE725	1
+bCon	1	0.6	donation	~	MAC message		T	16	808080	1
+bFam	1	0.6	donation	~	MAC family		T	9		1
+bGro	1		donation	~	MAC group		T	10		1
+bRec	1		donation	~	MAC reciprocity		T	11		1
+bHer	1		donation	~	MAC heroism		T	12		1
+bDef	1		donation	~	MAC deference		T	13		1
+bFai	1		donation	~	MAC fairness		T	14		1
+bPro	1		donation	~	MAC property		T	15		1
+bDg	1	0.6	donation	~	COVID danger		T	17	FF0000	1
+aGP	2		precaution	~	gender	[man]	T	1		1
+	2		precaution	~	gender	[woman]	T	2		1
+bAP	2		precaution	~	age		T	3		1
+aCP	2	0.6	precaution	~	message	[none]	T	6		1
+	2		precaution	~	message	[prudence]	T	7		1
+	2		precaution	~	message	[general moral]	T	8		1
+	2		precaution	~	message	[family]	T	9		1
+	2		precaution	~	message	[group]	T	10		1
+	2		precaution	~	message	[reciprocity]	T	11		1
+	2		precaution	~	message	[heroism]	T	12		1
+	2		precaution	~	message	[deference]	T	13		1
+	2		precaution	~	message	[fairness]	T	14		1
+	2		precaution	~	message	[property]	T	15		1
+bConP	2	0.6	precaution	~	MAC message		T	16		1
+bFamP	2	0.6	precaution	~	MAC family		T	9		1
+bGroP	2		precaution	~	MAC group		T	10		1
+bRecP	2		precaution	~	MAC reciprocity		T	11		1
+bHerP	2		precaution	~	MAC heroism		T	12		1
+bDefP	2		precaution	~	MAC deference		T	13		1
+bFaiP	2		precaution	~	MAC fairness		T	14		1
+bProP	2		precaution	~	MAC property		T	15		1
+bDgP	2	0.6	precaution	~	COVID danger		T	17		1
+aGS	3		prosociality	~	gender	[man]	T	1		1
+	3		prosociality	~	gender	[woman]	T	2		1
+bAS	3		prosociality	~	age		T	3		1
+aCS	3	0.6	prosociality	~	message	[none]	T	6		1
+	3		prosociality	~	message	[prudence]	T	7		1
+	3		prosociality	~	message	[general moral]	T	8		1
+	3		prosociality	~	message	[family]	T	9		1
+	3		prosociality	~	message	[group]	T	10		1
+	3		prosociality	~	message	[reciprocity]	T	11		1
+	3		prosociality	~	message	[heroism]	T	12		1
+	3		prosociality	~	message	[deference]	T	13		1
+	3		prosociality	~	message	[fairness]	T	14		1
+	3		prosociality	~	message	[property]	T	15		1
+bConS	3	0.6	prosociality	~	MAC message		T	16		1
+bFamS	3	0.6	prosociality	~	MAC family		T	9		1
+bGroS	3		prosociality	~	MAC group		T	10		1
+bRecS	3		prosociality	~	MAC reciprocity		T	11		1
+bHerS	3		prosociality	~	MAC heroism		T	12		1
+bDefS	3		prosociality	~	MAC deference		T	13		1
+bFaiS	3		prosociality	~	MAC fairness		T	14		1
+bProS	3		prosociality	~	MAC property		T	15		1
+bDgS	3	0.6	prosociality	~	COVID danger		T	17		1
+sigmaD							F			1
+sigmaP							F			1
+sigmaS							F			1
+aG_Fam	4		MAC family	~	gender	[man]	T	1		1
+	4		MAC family	~	gender	[woman]	T	2		1
+aG_Gro	4		MAC group	~	gender	[man]	T	1		1
+	4		MAC group	~	gender	[woman]	T	2		1
+aG_Rec	4		MAC reciprocity	~	gender	[man]	T	1		1
+	4		MAC reciprocity	~	gender	[woman]	T	2		1
+aG_Her	4		MAC heroism	~	gender	[man]	T	1		1
+	4		MAC heroism	~	gender	[woman]	T	2		1
+aG_Def	4		MAC deference	~	gender	[man]	T	1		1
+	4		MAC deference	~	gender	[woman]	T	2		1
+aG_Fai	4		MAC fairness	~	gender	[man]	T	1		1
+	4		MAC fairness	~	gender	[woman]	T	2		1
+aG_Pro	4		MAC property	~	gender	[man]	T	1		1
+	4		MAC property	~	gender	[woman]	T	2		1
+bAge_Fam	4	0.6	MAC family	~	age		T	3		1
+bAge_Gro	4		MAC group	~	age		T	3		1
+bAge_Rec	4		MAC reciprocity	~	age		T	3		1
+bAge_Her	4		MAC heroism	~	age		T	3		1
+bAge_Def	4		MAC deference	~	age		T	3		1
+bAge_Fai	4		MAC fairness	~	age		T	3		1
+bAge_Pro	4		MAC property	~	age		T	3		1
+sigma_Fam							F			1
+sigma_Gro							F			1
+sigma_Rec							F			1
+sigma_Her							F			1
+sigma_Def							F			1
+sigma_Fai							F			1
+sigma_Pro							F			1
+aG_Dang	5		COVID danger	~	gender	[man]	T	1		1
+	5		COVID danger	~	gender	[woman]	T	2		1
+bAge_Dang	5		COVID danger	~	age		T	3		1
+sigma_Dang							F			1
+aGC	1		donation	~	gender	[man]	T	1		2
+	1		donation	~	gender	[woman]	T	2		2
+bAC	1		donation	~	age		T	3		2
+bPC	1	0.6	donation	~	precaution		T	4		2
+bSC	1		donation	~	prosociality		T	5		2
+aCC	1	0.6	donation	~	message	[none]	T	6		2
+	1		donation	~	message	[prudence]	T	7		2
+	1		donation	~	message	[general moral]	T	8		2
+	1		donation	~	message	[family]	T	9		2
+	1		donation	~	message	[group]	T	10		2
+	1		donation	~	message	[reciprocity]	T	11		2
+	1		donation	~	message	[heroism]	T	12		2
+	1		donation	~	message	[deference]	T	13		2
+	1		donation	~	message	[fairness]	T	14		2
+	1		donation	~	message	[property]	T	15		2
+bConC	1	0.6	donation	~	MAC message		T	16		2
+bFamC	1	0.6	donation	~	MAC family		T	9		2
+bGroC	1		donation	~	MAC group		T	10		2
+bRecC	1		donation	~	MAC reciprocity		T	11		2
+bHerC	1		donation	~	MAC heroism		T	12		2
+bDefC	1		donation	~	MAC deference		T	13		2
+bFaiC	1		donation	~	MAC fairness		T	14		2
+bProC	1		donation	~	MAC property		T	15		2
+bDgC	1	0.6	donation	~	COVID danger		T	17		2
+aGPC	2		precaution	~	gender	[man]	T	1		2
+	2		precaution	~	gender	[woman]	T	2		2
+bAPC	2		precaution	~	age		T	3		2
+aCPC	2	0.6	precaution	~	message	[none]	T	6		2
+	2		precaution	~	message	[prudence]	T	7		2
+	2		precaution	~	message	[general moral]	T	8		2
+	2		precaution	~	message	[family]	T	9		2
+	2		precaution	~	message	[group]	T	10		2
+	2		precaution	~	message	[reciprocity]	T	11		2
+	2		precaution	~	message	[heroism]	T	12		2
+	2		precaution	~	message	[deference]	T	13		2
+	2		precaution	~	message	[fairness]	T	14		2
+	2		precaution	~	message	[property]	T	15		2
+bConPC	2	0.6	precaution	~	MAC message		T	16		2
+bFamPC	2	0.6	precaution	~	MAC family		T	9		2
+bGroPC	2		precaution	~	MAC group		T	10		2
+bRecPC	2		precaution	~	MAC reciprocity		T	11		2
+bHerPC	2		precaution	~	MAC heroism		T	12		2
+bDefPC	2		precaution	~	MAC deference		T	13		2
+bFaiPC	2		precaution	~	MAC fairness		T	14		2
+bProPC	2		precaution	~	MAC property		T	15		2
+bDgPC	2	0.6	precaution	~	COVID danger		T	17		2
+aGSC	3		prosociality	~	gender	[man]	T	1		2
+	3		prosociality	~	gender	[woman]	T	2		2
+bASC	3		prosociality	~	age		T	3		2
+aCSC	3	0.6	prosociality	~	message	[none]	T	6		2
+	3		prosociality	~	message	[prudence]	T	7		2
+	3		prosociality	~	message	[general moral]	T	8		2
+	3		prosociality	~	message	[family]	T	9		2
+	3		prosociality	~	message	[group]	T	10		2
+	3		prosociality	~	message	[reciprocity]	T	11		2
+	3		prosociality	~	message	[heroism]	T	12		2
+	3		prosociality	~	message	[deference]	T	13		2
+	3		prosociality	~	message	[fairness]	T	14		2
+	3		prosociality	~	message	[property]	T	15		2
+bConSC	3	0.6	prosociality	~	MAC message		T	16		2
+bFamSC	3	0.6	prosociality	~	MAC family		T	9		2
+bGroSC	3		prosociality	~	MAC group		T	10		2
+bRecSC	3		prosociality	~	MAC reciprocity		T	11		2
+bHerSC	3		prosociality	~	MAC heroism		T	12		2
+bDefSC	3		prosociality	~	MAC deference		T	13		2
+bFaiSC	3		prosociality	~	MAC fairness		T	14		2
+bProSC	3		prosociality	~	MAC property		T	15		2
+bDgSC	3	0.6	precaution	~	COVID danger		T	17		2
+aG_FamC	4		MAC family	~	gender	[man]	T	1		2
+	4		MAC family	~	gender	[woman]	T	2		2
+aG_GroC	4		MAC group	~	gender	[man]	T	1		2
+	4		MAC group	~	gender	[woman]	T	2		2
+aG_RecC	4		MAC reciprocity	~	gender	[man]	T	1		2
+	4		MAC reciprocity	~	gender	[woman]	T	2		2
+aG_HerC	4		MAC heroism	~	gender	[man]	T	1		2
+	4		MAC heroism	~	gender	[woman]	T	2		2
+aG_DefC	4		MAC deference	~	gender	[man]	T	1		2
+	4		MAC deference	~	gender	[woman]	T	2		2
+aG_FaiC	4		MAC fairness	~	gender	[man]	T	1		2
+	4		MAC fairness	~	gender	[woman]	T	2		2
+aG_ProC	4		MAC property	~	gender	[man]	T	1		2
+	4		MAC property	~	gender	[woman]	T	2		2
+bAge_FamC	4	0.6	MAC family	~	age		T	3		2
+bAge_GroC	4		MAC group	~	age		T	3		2
+bAge_RecC	4		MAC reciprocity	~	age		T	3		2
+bAge_HerC	4		MAC heroism	~	age		T	3		2
+bAge_DefC	4		MAC deference	~	age		T	3		2
+bAge_FaiC	4		MAC fairness	~	age		T	3		2
+bAge_ProC	4		MAC property	~	age		T	3		2
+aG_DangC	5		COVID danger	~	gender	[man]	T	1		2
+	5		COVID danger	~	gender	[woman]	T	2		2
+bAge_DangC	5		COVID danger	~	age		T	3		2
